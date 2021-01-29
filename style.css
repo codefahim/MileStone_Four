@@ -123,6 +123,16 @@ nav ul li a:hover, a.active{
 #plus,
 #plusOne,
 #minus,
-#minusOne{
+#minusOne,
+#bookNow{
     cursor: pointer;
+}
+
+#plus,
+#plusOne,
+#minus,
+#minusOne{
+    background-color: #f3f5ff;
+    border-radius: 50%;
+  padding: 1px 5px;
 }

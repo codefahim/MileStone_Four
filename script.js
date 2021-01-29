@@ -73,4 +73,23 @@ document.getElementById(id).value=conformedSets;
 };
 
 
+
+
+
+const bookingConfirmation = document.getElementById('bookNow');
+bookingConfirmation.addEventListener('click',function(){
+	let mainSection =document.getElementById('mainSection');
+	mainSection.style.display = 'none';
+
+ const firstClassPassenger =document.getElementById('firstClassInput').value;
+document.getElementById('firstClassPassenger').innerHTML=firstClassPassenger;
+
+const economyClassPassenger =document.getElementById('economyClassInput').value;
+document.getElementById('economyClassPassenger').innerHTML=economyClassPassenger;
+
+
+	const total = document.getElementById('total').innerHTML;
+	document.getElementById('totalCost').innerHTML=total;
+});
+
 // Thank You
