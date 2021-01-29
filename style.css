@@ -136,3 +136,13 @@ nav ul li a:hover, a.active{
     border-radius: 50%;
   padding: 1px 5px;
 }
+
+.new-width{
+    width: 400px;
+     margin-top: 10%;
+    margin-left: 38%;
+}
+
+#confirmation{
+    display: none;
+}

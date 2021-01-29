@@ -73,6 +73,7 @@ document.getElementById(id).value=conformedSets;
 };
 
 
+// confirmation Booking
 
 
 
@@ -81,15 +82,25 @@ bookingConfirmation.addEventListener('click',function(){
 	let mainSection =document.getElementById('mainSection');
 	mainSection.style.display = 'none';
 
+	let confirmation =document.getElementById('confirmation');
+	confirmation.style.display = 'block';
+
  const firstClassPassenger =document.getElementById('firstClassInput').value;
 document.getElementById('firstClassPassenger').innerHTML=firstClassPassenger;
 
 const economyClassPassenger =document.getElementById('economyClassInput').value;
 document.getElementById('economyClassPassenger').innerHTML=economyClassPassenger;
 
+	const subCost =document.getElementById('subtotal').innerHTML;
+	document.getElementById('subCost').innerHTML= subCost;
+
+	const vatCost =document.getElementById('vat').innerHTML;
+	document.getElementById('vatCost').innerHTML =vatCost;
 
 	const total = document.getElementById('total').innerHTML;
 	document.getElementById('totalCost').innerHTML=total;
+
+
 });
 
 // Thank You
