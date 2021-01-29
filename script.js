@@ -74,7 +74,7 @@ document.getElementById(id).value=conformedSets;
 
 
 // confirmation Booking
-
+const total = document.getElementById('total').innerHTML;
 
 
 const bookingConfirmation = document.getElementById('bookNow');
@@ -102,5 +102,7 @@ document.getElementById('economyClassPassenger').innerHTML=economyClassPassenger
 
 
 });
+
+
 
 // Thank You
